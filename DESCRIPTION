@@ -1,14 +1,23 @@
-Package: DEEPEst0624
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Package: DEEPEst
+Title: Hierarchical Bayesian Estimation for DEEP with 'Stan'
+Version: 1.0
+Date: 2019-05-09
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    c(person(given = "Qi",
+           family = "Zhao",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "zhaoxiaomi277@outlook.com"),
+      person(given = "Daniel",
+           family = "Wall",
+           role = c("ctb"),
+           email = "itsdanwall@gmail.com"),
+      person(given = "Center for Decision Sciences",
+           family = "Columbia Business School",
+           email = "cds@decisionsciences.columbia.edu",
+           role = c("cph"))     
+      )
+Description: Dynamic Experiments for Estimating Preferences (DEEP) is a novel methodology to elicit individuals' risk and time preferences by dynamically optimizing the sequences of questions presented to each subject, while leveraging information about the distribution of the parameters across individuals (heterogeneity) and modeling response error explicitly. This package provides functions to execute hierarchical Bayesian estimation for DEEP with 'Stan' <https://mc-stan.org> and posterior analysis on estimates of both time and risk preferences parameters. 
+License: GPL (>=3)
 Encoding: UTF-8
 LazyData: true
 Biarch: true
@@ -18,7 +27,7 @@ Imports:
     methods,
     Rcpp (>= 0.12.0),
     rstan (>= 2.18.1),
-    rstantools (>= 2.0.0.9000)
+    rstantools (>= 2.0.0)
 LinkingTo: 
     BH (>= 1.66.0),
     Rcpp (>= 0.12.0),

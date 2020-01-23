@@ -4,14 +4,14 @@
 \alias{Time_prepare_Stan}
 \title{Prepare Data for Stan Time Estimation}
 \usage{
-Time_prepare_Stan(all_Stan_data, subjectNumber, num_question_Est)
+Time_prepare_Stan(all_Stan_data, num_question_Est, subjectNumber)
 }
 \arguments{
 \item{all_Stan_data}{Data needed to be processed.}
 
-\item{subjectNumber}{Number of subjects in this survey.}
-
 \item{num_question_Est}{How many questions are going to be used in this estimation.}
+
+\item{subjectNumber}{Number of subjects in this survey.}
 }
 \value{
 Several objects will be returned into global enviornment:

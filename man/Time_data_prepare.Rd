@@ -5,7 +5,7 @@
 \title{Read, Clean and Denoise Time Survey Data}
 \usage{
 Time_data_prepare(project_name, path, num_question, clean_time = T,
-  clean_side = T, each_seconds = 2)
+  clean_side = T, each_seconds = 3)
 }
 \arguments{
 \item{project_name}{The name of this study.}

@@ -5,7 +5,7 @@
 \title{Stan Estimation Function for DEEP Risk}
 \usage{
 Stan_Risk_Estimation(project_name, num_question_Est, num_question,
-  type_theta, path, save_out = T, chains = 3, iter = 1000,
+  type_theta, path, stan_path, save_out = T, chains = 3, iter = 1000,
   thin = 3, adapt_delta = 0.9, max_treedepth = 12, stepsize = 1)
 }
 \arguments{

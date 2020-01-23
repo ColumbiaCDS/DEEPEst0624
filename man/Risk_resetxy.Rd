@@ -10,7 +10,7 @@ Risk_resetxy(g1g2)
 \item{g1g2}{One row with contents for two options in one Risk question.}
 }
 \value{
-Arranged properly row.
+Arranged data.
 }
 \description{
 Prepare data and make sure the values of rewards \code{x} and \code{y} fall into the two situations of CPT model indicated in original paper: either \eqn{x>y>0|x<y<0}, or \eqn{x<0<y}.
